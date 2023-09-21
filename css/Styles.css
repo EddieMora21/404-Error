@@ -1,0 +1,45 @@
+.conteiner {
+    display: grid;
+    place-items: center;
+    justify-items: start;
+
+}
+
+.Error-conteiner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    margin-top: 15vh;
+    
+
+}
+.Error-img img  {
+    max-width: 80%;
+}
+.Error-txt h1 {
+    width: 70%;
+    
+}
+
+.Error-txt p {
+    width: 60%;
+}
+
+.Error-txt button {
+    height: 5vh;
+    background-color: black;
+    color: white;
+}
+
+.footer-conteiner{
+    display: grid;
+    place-items: center;
+}
+
+@media (max-width:767px){
+    .Error-conteiner{
+        display: block;
+    }
+    
+    
+}
